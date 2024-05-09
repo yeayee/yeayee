@@ -7,13 +7,10 @@
 -- Coze应用BOT：[中国风水知识大全](https://www.coze.com/store/bot/7348238210801287170)
 
 
-- 👋 Hi, I’m @yeayee
-- 👀 I’m interested in python
-- 🌱 I’m currently learning bokeh for Data visualization
-- 💞️ I’m looking to collaborate on web 3.0
-- 📫 How to reach me : in the wall , my ID is civilpy
+- 👋 最新作品：【痕迹】QQ+微信朋友圈和聊天记录分析工具
+- 👀 下载地址：https://www.lanzoub.com/b00rn0g47e 密码:9hww
+- 👀 演示视频：https://www.bilibili.com/video/BV1dZ421j7Rp/
+- 🌱 想不想知道经常和你聊天的那个人，聊天的频次，时段，内容？
+- 💞️ 想不想知道你都在什么时候发朋友圈，都有谁给你点赞、评论？
+- 📫 想不想知道哪一天的聊天频次最多，并把聊天记录甩给大模型，让它总结？
 
-<!---
-yeayee/yeayee is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
