@@ -13,10 +13,11 @@
 - 🌱 想不想知道经常和你聊天的那个人，聊天的频次，时段，内容？
 - 💞️ 想不想知道你都在什么时候发朋友圈，都有谁给你点赞、评论？
 - 📫 想不想知道哪一天的聊天频次最多，并把聊天记录甩给大模型，让它总结？
-<img src="https://github.com/yeayee/yeayee/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240731085559.jpg" alt="Telegram" width="200" height="300" />
+- 
+<img src="https://github.com/yeayee/yeayee/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240731085559.jpg" alt="Telegram" width="200" height="400" />
+
 <img src="https://github.com/yeayee/yeayee/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240731085721.jpg" alt="微信" width="200" height="300" />
-- ![Telegram](https://github.com/yeayee/yeayee/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240731085559.jpg)
-- ![微信](https://github.com/yeayee/yeayee/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240731085721.jpg)
+
 
 
 
