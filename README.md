@@ -16,7 +16,7 @@
 - 
 
 <div style="text-align: left; display: inline-block;">
-  <img src="https://github.com/yeayee/yeayee/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240731085559.jpg" alt="Telegram" width="200" height="400" />
+  <img src="https://github.com/yeayee/yeayee/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240731085559.jpg" alt="Telegram" width="250" height="400" />
 
   
   <img src="https://github.com/yeayee/yeayee/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240731085721.jpg" alt="微信" width="200" height="300" />
