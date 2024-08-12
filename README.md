@@ -1,4 +1,6 @@
 - 如果对您有帮助，欢迎请我喝咖啡☕️ https://ko-fi.com/civilpy
+  
+- 当然，也可以到我的小店支持一下：https://civilpy.printify.me/products
 
 - 我的网站：https://intumu.com/
 
