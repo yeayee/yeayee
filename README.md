@@ -13,7 +13,8 @@ step2: Install the Google or Edge browser extension: Immersive Translate. Then t
 
 step3: Play audio and record the screen. At last , you may get the MP4.
 
-- 
+<br>
+ 
 - 👋 以往作品：【痕迹】QQ+微信朋友圈和聊天记录分析工具
 - 👀 地址：[https://intumu.com/qqgroup/](https://intumu.com/qqgroup/) 
 
