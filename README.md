@@ -23,7 +23,23 @@ step3: Play audio and record the screen. At last , you may get the video.
 - 📫 想不想知道哪一天的聊天频次最多，并把聊天记录甩给大模型，让它总结？
 - ☕️ 如果对您有帮助，欢迎请我喝咖啡 [https://paypal.me/emoome82](https://paypal.me/emoome82)
 
+<br><hr>
+yeayee/wav2lip-webui/wav2lip-webui
+https://www.codewithgpu.com/i/yeayee/wav2lip-webui/wav2lip-webui
+支持声音驱动图片，声音驱动视频
+
+yeayee/facefusion/facefusion_wav2lip
+https://www.codewithgpu.com/i/yeayee/facefusion/facefusion_wav2lip
+集成了换脸，GAN加强，wav2lip音频驱动口型等
+
+open-mmlab/Amphion/MaskGCT-TTS-10G-models
+https://www.codewithgpu.com/i/open-mmlab/Amphion/MaskGCT-TTS-10G-models
+集成了训练集，超级好用的声音克隆工具
+
+<br><hr>
+
 <div style="text-align: left; display: inline-block;">
+  
   <img src="https://github.com/yeayee/yeayee/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240731085559.jpg" alt="Telegram" width="220" height="400" />
 
   
