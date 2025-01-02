@@ -24,19 +24,19 @@ step3: Play audio and record the screen. At last , you may get the video.
 - ☕️ 如果对您有帮助，欢迎请我喝咖啡 [https://paypal.me/emoome82](https://paypal.me/emoome82)
 
 <br><hr>
-yeayee/wav2lip-webui/wav2lip-webui
+- yeayee/wav2lip-webui/wav2lip-webui
 
 https://www.codewithgpu.com/i/yeayee/wav2lip-webui/wav2lip-webui
 
 支持声音驱动图片，声音驱动视频
 
-yeayee/facefusion/facefusion_wav2lip
+- yeayee/facefusion/facefusion_wav2lip
 
 https://www.codewithgpu.com/i/yeayee/facefusion/facefusion_wav2lip
 
 集成了换脸，GAN加强，wav2lip音频驱动口型等
 
-open-mmlab/Amphion/MaskGCT-TTS-10G-models
+- open-mmlab/Amphion/MaskGCT-TTS-10G-models
 
 https://www.codewithgpu.com/i/open-mmlab/Amphion/MaskGCT-TTS-10G-models
 
