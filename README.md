@@ -2,17 +2,6 @@
   
 - 你好，欢迎访问我的小破站，内有个人大量经验及创意：[https://intumu.com/](https://intumu.com/)
 
-- 👋 最新作品：SRT and MP3 Sync  | 可以用来制作任意语言之间转换的视频
-- 👀 地址：[https://srtmp3sync-nt3wcd519-civilpys-projects.vercel.app/](https://srtmp3sync-nt3wcd519-civilpys-projects.vercel.app/)
-
-# How to use SRT and MP3 Sync
-
-step1: You should upload srt,mp3,backgroudimage files.
-
-step2: Install the Google or Edge browser extension: Immersive Translate. Then translate the srt to any language.
-
-step3: Play audio and record the screen. At last , you may get the video.
-
 <br><hr>
  
 - 👋 以往作品：【痕迹】QQ+微信朋友圈和聊天记录分析工具
