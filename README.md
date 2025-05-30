@@ -1,6 +1,6 @@
 
   
-- 你好，欢迎访问我的
+- 你好，欢迎来访~
 
 - 小破站1：国内：[https://intumu.com/](https://intumu.com/)
 
