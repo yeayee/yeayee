@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机提问</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
+	
+        <h1 class="text-2xl font-bold text-center mb-4">随机提问</h1>
+		<div class="flex justify-center space-x-4 mb-4">
+		 <button id="nextQuestion" class="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">切换问题</button>
+		   </div>
+        <div id="question" class="text-lg text-center mb-6"></div>
+        <div class="flex justify-center space-x-4 mb-4">
+           
+            <button id="showAnswer" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">显示答案</button>
+        </div>
+        <div id="answer" class="text-center text-md"></div>
+        <div id="pronunciation" class="text-center mt-2"></div>
+    </div>
+
+    <script>
+        const questions = [
+            {"unit": "Unit 1", "en": "Where's the teachers' office?", "cn": "老师的办公室在哪里？"},
+            {"unit": "Unit 1", "en": "It's on the second floor.", "cn": "它在二楼。"},
+            {"unit": "Unit 1", "en": "Is this the teachers' office?", "cn": "这是老师的办公室吗？"},
+            {"unit": "Unit 1", "en": "No, it isn't. The teachers' office is next to the library.", "cn": "不，不是。老师的办公室在图书馆旁边。"},
+            {"unit": "Unit 1", "en": "Is that the computer room?", "cn": "那是计算机房吗？"},
+            {"unit": "Unit 1", "en": "Do you have a library?", "cn": "你们有图书馆吗？"},
+            {"unit": "Unit 1", "en": "Yes, we do.", "cn": "是的，有。"},
+            {"unit": "Unit 1", "en": "It's time to get up.", "cn": "该起床了。"},
+            {"unit": "Unit 2", "en": "What time is it?", "cn": "现在几点了？"},
+            {"unit": "Unit 2", "en": "It's 6 o'clock. It's time for dinner.", "cn": "现在6点钟。到了晚餐时间。"},
+            {"unit": "Unit 2", "en": "Time to go home, kids.", "cn": "该回家了，孩子们。"},
+            {"unit": "Unit 3", "en": "Can I go outside now?", "cn": "我现在可以去外面吗？"},
+            {"unit": "Unit 3", "en": "It's cold outside.", "cn": "外面很冷。"},
+            {"unit": "Unit 3", "en": "Yes, you can. / No, you can't.", "cn": "可以，你可以。/ 不，你不能。"},
+            {"unit": "Unit 3", "en": "What's the weather like in New York?", "cn": "纽约的天气怎么样？"},
+            {"unit": "Unit 3", "en": "It's rainy.", "cn": "下雨了。"},
+            {"unit": "Unit 3", "en": "Is it cold?", "cn": "天冷吗？"},
+            {"unit": "Unit 3", "en": "No, it isn't.", "cn": "不，不冷。"},
+            {"unit": "Unit 3", "en": "It's 26 degrees.", "cn": "是26度。"},
+            {"unit": "Unit 4", "en": "Are these carrots?", "cn": "这些是胡萝卜吗？"},
+            {"unit": "Unit 5", "en": "Are these yours?", "cn": "这些是你的吗？"},
+            {"unit": "Unit 5", "en": "No, they aren't.", "cn": "不，不是。"},
+            {"unit": "Unit 5", "en": "They're Chen Jie's.", "cn": "它们是陈杰的。"},
+            {"unit": "Unit 5", "en": "Is this John's?", "cn": "这是约翰的吗？"},
+            {"unit": "Unit 5", "en": "No, it isn't. It's Mike's.", "cn": "不，不是。它是迈克的。"},
+            {"unit": "Unit 5", "en": "Whose coat is this?", "cn": "这是谁的外套？"},
+            {"unit": "Unit 6", "en": "Can I help you?", "cn": "我能帮你吗？"},
+            {"unit": "Unit 6", "en": "Yes. These shoes are nice.", "cn": "是的。这些鞋很好看。"},
+            {"unit": "Unit 6", "en": "Can I try them on?", "cn": "我可以试穿吗？"},
+            {"unit": "Unit 6", "en": "Size 6, please.", "cn": "6号，谢谢。"},
+            {"unit": "Unit 6", "en": "They're too small.", "cn": "它们太小了。"},
+            {"unit": "Unit 6", "en": "How do you like this skirt?", "cn": "你觉得这条裙子怎么样？"},
+            {"unit": "Unit 6", "en": "It's very pretty.", "cn": "它很漂亮。"},
+            {"unit": "Unit 6", "en": "How much is this skirt?", "cn": "这条裙子多少钱？"},
+            {"unit": "Unit 6", "en": "It's $89.", "cn": "它是89美元。"},
+            {"unit": "Unit 4", "en": "Yes, they are.", "cn": "是的，他们是。"},
+            {"unit": "Unit 4", "en": "What are these?", "cn": "这些是什么？"},
+            {"unit": "Unit 4", "en": "They're tomatoes.", "cn": "它们是西红柿。"},
+            {"unit": "Unit 4", "en": "What are those?", "cn": "那些是什么？"},
+            {"unit": "Unit 4", "en": "They're horses.", "cn": "它们是马。"},
+            {"unit": "Unit 4", "en": "Are they hens?", "cn": "它们是母鸡吗？"},
+            {"unit": "Unit 4", "en": "No, they aren't. They're ducks.", "cn": "不，不是。它们是鸭子。"},
+            {"unit": "Unit 4", "en": "It's mine.", "cn": "它是我的。"},
+            {"unit": "Unit 4", "en": "Whose pants are those?", "cn": "那些裤子是谁的？"},
+            {"unit": "Unit 4", "en": "They are your father's.", "cn": "它们是你父亲的。"},
+            {"unit": "Unit 4", "en": "It's very pretty.", "cn": "它很漂亮。"}
+        ];
+
+        let currentQuestion = null;
+
+        function getRandomQuestion() {
+            const randomIndex = Math.floor(Math.random() * questions.length);
+            return questions[randomIndex];
+        }
+
+        function displayQuestion() {
+            currentQuestion = getRandomQuestion();
+            const questionDiv = document.getElementById('question');
+            questionDiv.innerHTML = `${currentQuestion.unit}: ${currentQuestion.cn} <button id="pronounceCn" class="bg-purple-500 text-white px-2 py-1 rounded hover:bg-purple-600 ml-2">中文发音</button>`;
+            document.getElementById('answer').textContent = '';
+            document.getElementById('pronunciation').innerHTML = ''; // 清空发音按钮
+            document.getElementById('pronounceCn').addEventListener('click', pronounceCnText);
+        }
+
+        function showAnswer() {
+            if (currentQuestion) {
+                const answerDiv = document.getElementById('answer');
+                answerDiv.textContent = `(答案: ${currentQuestion.en})`;
+                const pronunciationDiv = document.getElementById('pronunciation');
+                pronunciationDiv.innerHTML = '<button id="pronounce" class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600 mt-2">英文发音</button>';
+                document.getElementById('pronounce').addEventListener('click', pronounceText);
+            }
+        }
+
+        function pronounceText() {
+            if (currentQuestion && 'speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(currentQuestion.en);
+                utterance.lang = 'en-US'; // 设置语言为英语
+                speechSynthesis.speak(utterance);
+            } else {
+                alert('您的浏览器不支持语音合成或请检查权限。');
+            }
+        }
+
+        function pronounceCnText() {
+            if (currentQuestion && 'speechSynthesis' in window) {
+                const utterance = new SpeechSynthesisUtterance(currentQuestion.cn);
+                utterance.lang = 'zh-CN'; // 设置语言为中文
+                speechSynthesis.speak(utterance);
+            } else {
+                alert('您的浏览器不支持语音合成或请检查权限。');
+            }
+        }
+
+        // 页面加载时显示第一个随机问题
+        window.onload = displayQuestion;
+
+        // 按钮事件监听
+        document.getElementById('nextQuestion').addEventListener('click', displayQuestion);
+        document.getElementById('showAnswer').addEventListener('click', showAnswer);
+    </script>
+</body>
+</html>
