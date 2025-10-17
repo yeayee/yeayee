@@ -4,7 +4,7 @@
 - 小破站1：国内：[https://intumu.com/](https://intumu.com/)
 - 小破站2：国外：[https://glossbook.top/](https://glossbook.top/) 
 <br><hr>
-- TG@civlpy
+- TG@civilpy
 - 币安ID：1031823218
 <br><hr>
 <div style="text-align: left; display: inline-block;">
