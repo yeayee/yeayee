@@ -6,6 +6,10 @@
 
 - 小破站2：国外：[https://glossbook.top/](https://glossbook.top/)
 
+- 币安ID：1031823218
+  
+- TG@civlpy
+  
 <br><hr>
  
 
@@ -13,10 +17,7 @@
 
 <div style="text-align: left; display: inline-block;">
   
-
-
-  
-  <img src="[https://github.com/yeayee/yeayee/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240731085721.jpg](https://github.com/yeayee/yeayee/blob/main/2025-10-17_200133.jpg)" alt="微信" width="400" height="400" />
+  <img src="https://github.com/yeayee/yeayee/blob/main/2025-10-17_200133.jpg" alt="TG" width="400" height="400" />
 </div>
 
 <br><hr>
