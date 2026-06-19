@@ -1,8 +1,8 @@
 
   
 - 你好，欢迎来访~
-- 小破站1：国内：[https://intumu.com/](https://intumu.com/)
-- 小破站2：国外：[https://glossbook.top/](https://glossbook.top/) 
+- 小破站：国内：[https://intumu.com/](https://intumu.com/)
+
 <br><hr>
 - TG@civilpy
 - 币安ID：1031823218
