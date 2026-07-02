@@ -1,8 +1,10 @@
 
   
 - 你好，欢迎来访~
-- 小破站：国内：[https://intumu.com/](https://intumu.com/)
-
+- 小破站：
+- 国内：[https://intumu.com/](https://intumu.com/)
+- 国外：[https://xuanji.mooo.com/](https://xuanji.mooo.com/)
+- 
 <br><hr>
 - TG@civilpy
 - 币安ID：1031823218
