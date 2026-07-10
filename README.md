@@ -5,15 +5,6 @@
 - 国内：[https://intumu.com/](https://intumu.com/)
 - 国外：[https://xuanji.mooo.com/](https://xuanji.mooo.com/)
 - 
-<br><hr>
-- TG@civilpy
-- 币安ID：1031823218
-
-<br><hr>
-<div style="text-align: left; display: inline-block;">
-  <img src="https://github.com/yeayee/yeayee/blob/main/2025-10-17_200133.jpg" alt="TG" width="800" height="800" />
-</div>
-
 
 │   ├── 00-「老陌金融」
 
