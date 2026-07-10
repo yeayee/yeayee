@@ -11,7 +11,7 @@
 
 <br><hr>
 <div style="text-align: left; display: inline-block;">
-  <img src="https://github.com/yeayee/yeayee/blob/main/2025-10-17_200133.jpg" alt="TG" width="400" height="400" />
+  <img src="https://github.com/yeayee/yeayee/blob/main/2025-10-17_200133.jpg" alt="TG" width="800" height="400" />
 </div>
 
 
