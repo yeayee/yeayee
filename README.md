@@ -3,7 +3,7 @@
 - 你好，欢迎来访~
 - 小破站：
 - 国内：[https://intumu.com/](https://intumu.com/)
-- 国外：[https://xuanji.mooo.com/](https://xuanji.mooo.com/)
+
 - 
 
 │   ├── 00-「老陌金融」
